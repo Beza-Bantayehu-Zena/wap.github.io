@@ -38,4 +38,16 @@ p:first-letter {
 .single-list-item{
     list-style-type: none;
 }
+ol{
+    list-style-type: none;
+    counter-reset: item 4;
+}
+
+ol>li{
+    counter-increment: item -1;
+}
+
+ol>li::before{
+    content: counter(item) ". ";
+}
 
