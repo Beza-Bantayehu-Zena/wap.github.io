@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Register</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form action="">
+                <section id="page">
+                    <header>
+                        <div>Workshop registration
+                            <select name="Options">
+                                <option selected>More option</option>
+                                <option>option1</option>
+                                <option>option2</option>
+                            </select>
+                            </div>
+                    </header>
+                    <nav>
+                        <p>Register now while seats are available!</p>
+                        <p>First Name <input type="text" required> </p> 
+                        <p>Last Name <input type="text" required></p>
+                         <p>Company/Institution <input type="text" required></p>
+                         <p> Address
+                             <textarea name="address"  cols="17" rows="10"></textarea>
+                         </p>
+                        <p>City <input type="text"></p>
+                         <p>State/Province/Region  <select name="Options">
+                             <option selected>select</option>
+                             <option >FL</option>
+                             <option >IA</option>
+                         </select></p>
+                         <p>Country  <select name="Options">
+                             <option selected>Select</option>
+                             <option >Ethiopia</option>
+                             <option >USA</option>
+                         </select></p>
+                 <p>Email <input type="email" required>  </p>
+                      <p>Phone Number <input type="tel" name="phone" placeholder="123-456-7891"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></p> 
+                    </nav>
+                   
+                    <main>
+                        <p>Lunch</p>
+                        <p> Meal Preference  <select name="Options">
+                            <option selected>Vegetarian</option>
+                            <option >Omniverous</option>
+                            <option >Carniverous</option>
+                        </select></p>
+                       
+                      <p>Payment Mode</p>
+                      <p><fieldset>
+                        <legend>Payment Method</legend>
+                        <input type="radio" name="payment">Cash
+                        <input type="radio" name="payment">Cheque
+                        <input type="radio" name="payment">Demand Draft
+            
+                    </fieldset></p>
+                      <p>DD/Cheque No. <input type="text"></p>
+                      <p>Drawn On(Bank Name) <input type="text"></p>
+                      <p> Payable at <input type="text"></p>
+                    </main>
+                    
+                    <footer>
+                      
+                        <p>
+                            <input type="reset" name="btn">
+                            <input type="submit" name="btn">
+                        </p>
+                    </footer>
+                </section>
+            </form>
+            
+           
+        </body>
+</html>
